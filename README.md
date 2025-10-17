@@ -8,6 +8,8 @@ To get this started on new OS install, use
 ```bash 
 curl https://raw.githubusercontent.com/mknap/dotfiles/refs/heads/master/config-init | bash
 ```
+
+I want to rename the alias and config-init script to dotfile and dotfile-init
 ## Packages to install (pacman)
 
 sudo pacman -S vivaldi github-cli
