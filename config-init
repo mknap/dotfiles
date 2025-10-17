@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # clone the repo
-git clone --bare git@github.com:mknap/dotfiles.git $HOME/dotfiles
+git clone --bare https://github.com/mknap/dotfiles.git $HOME/dotfiles
 
 # define config alias locally since the dotfiles
 # aren't installed on the system yet
@@ -18,6 +18,7 @@ if [ $? = 0 ]; then
     echo "Moving existing dotfiles to ~/.dotfiles-backup";
     config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .dotfiles-backup/{}
 fi
+
 # checkout dotfiles from repo
 config checkout
 config config status.showUntrackedFiles no
