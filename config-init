@@ -16,7 +16,9 @@ if [ $? = 0 ]; then
   echo "Checking out dotfiles from git@github.com:mknap/dotfiles.git";
   else
     echo "Moving existing dotfiles to ~/.dotfiles-backup";
-    config checkout 2>&1 | grep -E "\s+\." | awk {'print $1'} | xargs -I{} mv {} $HOME/.dotfiles-backup/{}
+      # This mv command doesn't work with tree structures like .config/hypr/config/file.conf:
+      #config checkout 2>&1 | grep -E "\s+\." | awk {'print $1'} | xargs -I{} mv {} $HOME/.dotfiles-backup/{}
+   config checkout 2>&1 | grep -E "\s+\." | awk {'print $1'} | xargs -I{} cp {} $HOME/.dotfiles-backup/ && rm {}
 fi
 
 # checkout dotfiles from repo
