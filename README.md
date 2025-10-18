@@ -31,7 +31,8 @@ Experimenting with branches, too, you can use `config checkout b branch` or `con
 I want to rename the alias and config-init script to dotfile and dotfile-init
 ## Packages to install (pacman)
 
-sudo pacman -S vivaldi github-cli 
+sudo pacman -S vivaldi github-cli gnome-browser-connector
+
 
 ## some hyprland stuff:
 sudo pacman -S hyprlauncher squeekboard
