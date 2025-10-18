@@ -24,7 +24,9 @@ h
 ```
 
 
-To update a machine, use `config checkout` (or `config fetch` ? or `config pull` ?)
+To update a machine, use `config checkout`
+`config pull` seemed to work.
+`config fetch` didn't seem to do anything
 
 Experimenting with branches, too, you can use `config checkout b branch` or `config switch branch` 
 
