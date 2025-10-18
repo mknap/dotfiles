@@ -8,6 +8,17 @@ To get this started on new OS install, use
 ```bash 
 curl https://raw.githubusercontent.com/mknap/dotfiles/refs/heads/master/config-init | bash
 ```
+## Usage
+
+`config` is just an alias for `git` with some options, so to add a file:
+```bash
+config -am "commit message here"
+config push
+```
+
+To update a machine, use `config checkout` (or `config fetch` ? or `config pull` ?)
+
+Experimenting with branches, too, you can use `config checkout b branch` or `config switch branch` 
 
 I want to rename the alias and config-init script to dotfile and dotfile-init
 ## Packages to install (pacman)
