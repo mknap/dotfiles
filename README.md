@@ -34,6 +34,7 @@ I want to rename the alias and config-init script to dotfile and dotfile-init
 sudo pacman -S vivaldi github-cli
 
 ## Packages to install (yay)
-yay -S tilem2
+yay -S tilem spotify-launcher visual-studio-code-bin zoom hyprpanel insync kando-git
 
 ## Packages to install (apt)
+apt install tilem
