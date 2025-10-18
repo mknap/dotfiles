@@ -14,5 +14,7 @@ I want to rename the alias and config-init script to dotfile and dotfile-init
 
 sudo pacman -S vivaldi github-cli
 
+## Packages to install (yay)
+yay -S tilem2
 
 ## Packages to install (apt)
