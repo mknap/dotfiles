@@ -9,3 +9,5 @@
 	name = mike
 [core]
 	editor = nano
+[push]
+	autoSetupRemote = true
