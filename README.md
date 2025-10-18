@@ -44,6 +44,7 @@ sudo pacman -S hyprlauncher squeekboard
 ## Packages to install (yay)
 yay -S 
 tilem spotify-launcher visual-studio-code-bin zoom hyprpanel insync kando-git
+ags-hyprpanel-git
 
 ## Packages to install (apt)
 apt install tilem
