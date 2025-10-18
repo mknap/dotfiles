@@ -12,9 +12,17 @@ curl https://raw.githubusercontent.com/mknap/dotfiles/refs/heads/master/config-i
 
 `config` is just an alias for `git` with some options, so to add a file:
 ```bash
-config -am "commit message here"
+config add file
+config -m "commit message here"
 config push
 ```
+Or if you make edits to an already tracked file, 
+```bash
+config -am "commit message here"
+config pus
+h
+```
+
 
 To update a machine, use `config checkout` (or `config fetch` ? or `config pull` ?)
 
