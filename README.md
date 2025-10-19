@@ -37,7 +37,7 @@ sudo pacman -S
 vivaldi github-cli gnome-browser-connector
 cpio meson cmake
 yay
-
+v4l2loopback-dkms
 ## some hyprland stuff:
 sudo pacman -S hyprlauncher squeekboard
 
