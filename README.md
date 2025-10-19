@@ -38,6 +38,8 @@ vivaldi github-cli gnome-browser-connector
 cpio meson cmake
 yay
 v4l2loopback-dkms
+pipewire-pulse
+
 ## some hyprland stuff:
 sudo pacman -S hyprlauncher squeekboard
 
